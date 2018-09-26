@@ -1,0 +1,47 @@
+#identite{
+  width: 100px;
+	height: auto;
+  position: float;
+  float: none;
+}
+header{
+  text-align: center;
+}
+body{
+  background-color: LightSlateGray;
+}
+h1{
+  border: 2px solid black;
+}
+h2{
+  border: 1px solid black;
+  background: SteelBlue;
+  text-decoration: underline;
+}
+.italic{
+  font-style: italic;
+}
+meter{
+  position: absolute;
+  left: 160px;
+  width:30%;
+}
+#fleche{
+  width: 10%;
+	height: 10%;
+  position: fixed;
+  top: 90%;
+  right: 3%;
+  opacity: 0.2;
+}
+.lien{
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: SteelBlue;
+}
+#para1{
+  font-size: 20px;
+}
+a:hover {
+  background-color: gold;
+}

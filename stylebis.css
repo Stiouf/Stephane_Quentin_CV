@@ -1,0 +1,45 @@
+@media screen and (max-width: 700px) {
+    .cote, .principal {
+        flex-direction: column;
+    }
+}
+body {
+    margin: 0;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cote{
+  flex:30%;
+  background-color: lightblue;
+  text-align: center;
+}
+.principal{
+  flex:70%;
+}
+#identite{
+  width: 200px;
+	height: auto;
+  position: float;
+  float: none;
+}
+.cote, .principal{
+  box-sizing: border-box;
+  padding: 20px;
+}
+h2{
+  border: 1px solid black;
+  background: SteelBlue;
+  text-decoration: underline;
+}
+.italic{
+  font-style: italic;
+}
+#contact{
+  margin-top: 30%;
+}
+meter{
+  display: flex;
+  width:240px;
+}
